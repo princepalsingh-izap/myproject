@@ -34,8 +34,8 @@ if (isset($_POST['login']))
 <h1><a href="index.php">home</a></h1>
 <div>
 <form method=post action=login.php>
- Email<input type="text" name="email" >
- Password<input type="password" name="password" >
+ Email<input type="text" name="email" required="required">
+ Password<input type="password" name="password" required="required">
         <input type="submit" name="login" value="submit">
 </form>
 <form align="center"method="post" action="index.php">

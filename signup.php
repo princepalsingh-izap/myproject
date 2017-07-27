@@ -26,9 +26,9 @@ if (isset($_POST['signup'])) {
 <h1>Signup!</h1>
 <div>
 <form method="post" action="signup.php">
-Name <input type="text" name="name" >
-email<input type="text" name="email" >
-Password<input type="password" name="password">
+Name <input type="text" name="name" required="required">
+email<input type="text" name="email" required="required" >
+Password<input type="password" name="password" required="required">
 <input type="submit" name="signup" value="signup">
 </form>
 </div>
